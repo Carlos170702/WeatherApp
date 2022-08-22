@@ -17,7 +17,7 @@ export function WeatherForm({ onChangeCity }) {
   }
   return (
     <form onSubmit={handleSubmit} className={"form"}>
-      <input  type="text" onChange={onChange} className={"form__shearch"} />
+      <input placeholder="Dijita tu Ciudad / Pais"  type="text" onChange={onChange} className={"form__shearch"} />
     </form>
   );
 }
